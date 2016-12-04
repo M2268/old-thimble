@@ -1,0 +1,324 @@
+body, h1, h2, h3, h4, h5, a
+{
+  margin:0;
+  padding:0;
+}
+h2
+{
+  font-weight: bold;
+  font-style: normal;
+  text-transform: none;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  line-height: 10vh;
+  font-size:6vh;
+  margin-left:10px
+  padding-top: 5vh;
+}
+header
+{
+  background: url('../images/header.jpg') 100% 100% no-repeat;
+  width:100%;
+  min-height:100vh;
+  background-position: center;
+  position:relative;
+
+}
+img
+{
+  width:100%;
+}
+.logo
+{
+  height:95vh;
+  display:block;
+  position:absolute;
+  width:45%;
+  left:27.5%;
+  top:5%;
+  text-align: center;
+}
+.text
+{
+  font-weight: bold;
+  font-style: normal;
+  text-transform: none;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  line-height: 4vh;
+  font-size:3vh;
+}
+
+span
+{
+  font-weight: bold;
+  font-style: normal;
+  text-transform: none;
+  text-decoration: none;
+  font-family: Lato;
+  color: #fff;
+  font-size:2.8vh;
+
+
+}
+p.scroll
+{
+  font-size:5vh;
+  font-style: bold;
+  text-decoration: none;
+  color:white;
+  transform:rotate(90deg);
+}
+a.scroll
+{
+  text-decoration:none;
+
+}
+p
+{
+  margin:0;
+  padding:0;
+}
+hr.oferta
+{
+  height:3px;
+  background-color: white;
+}
+.h2
+{
+  width:70%;
+}
+section.first
+{
+  background: url('../images/bg-blackdot.png') 100% 100% repeat;
+  width:100%;
+  min-height:100vh;
+  background-position: center;
+  position:relative;
+
+}
+.content
+{
+
+  //max-width:1200px;
+}
+h2
+{
+  text-align:left;
+  padding-top:5vh;
+}
+.oferta
+{
+  text-align:left;
+  display: flex;
+  justify-content: space-around;
+  padding-top:20vh;
+  flex-wrap: wrap;
+
+}
+.img-oferta
+{
+  height:25vh;
+}
+.img-oferta img
+{
+display:inline-block;
+vertical-align: middle;
+height:100%;
+width:50%;
+}
+.item
+{
+  display: inline-block;
+  width: 17%;
+  min-width: 200px;
+  margin:10px;
+
+}
+
+ul
+{
+  padding-left:1vw;
+  color:white;
+}
+li
+{
+
+  color:white;
+}
+.list
+{
+  color:white;
+  font-size: 3vh;
+}
+ul li {
+    /* Bullet color */
+    color: #CDB380;
+    list-style-type: disc;
+}
+section.second
+{
+  background: url('../images/zaufali-bg.png') 100% 100% no-repeat;
+  background-size: cover;
+  width:100%;
+
+  background-position: center;
+  position:relative;
+
+}
+.trusted
+{
+  display: flex;
+  justify-content: space-around;
+height:36vh;
+  margin:0 25%;
+  vertical-align: middle;
+
+}
+.tr
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section.third
+{
+  background: white;
+  width:100%;
+  min-height:100vh;
+  background-position: center;
+  position:relative;
+  margin-bottom:5vh;
+}
+
+
+@media only screen and (max-width:600px)
+{
+  .logo
+  {
+    width:100% !important;
+    left:0% !important;
+  }
+  .trusted
+  {
+    margin:0!important;
+  }
+
+}
+@media only screen and (max-width:800px)
+{
+
+  .form
+  {
+      width:80% !important;
+      margin:10% !important;
+  }
+  .map
+  {
+    width: 100%!important;
+height: 60vh!important;
+display: inline-block!important;
+float:none!important;
+  }
+}
+iframe
+{
+  margin:0;
+  padding:0;
+  width:100%;
+}
+.map
+{
+  min-width: 350px;
+  width: 45%;
+height: 100vh;
+float: right;
+display: inline-block;
+margin: 0;
+padding: 0;
+}
+.form
+{
+  display:inline-block;
+  float:left;
+  width:40%;
+  height:100%;
+  min-width: 350px;
+  margin:0 5% 5% 5%;
+
+}
+.kontakt
+{
+  margin-top:8vh;
+  color:black;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: none;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  line-height: 10vh;
+  font-size:6vh;
+  margin-left:10px
+  padding-top: 5vh;
+}
+hr.kontakt
+{
+  height:3px;
+  background-color: black;
+}
+.form-input
+{
+display: block;
+width: 100%;
+
+margin:3vh 0;
+padding: 6px 0 6px 12px;
+font-size: 14px;
+line-height: 1.42857143;
+color: #555;
+background-color: #EEEEEE;
+background-image: none;
+border:none;
+}
+.input
+{
+  height: 4vh;
+}
+.button
+{
+  float:right;
+  width:30%;
+  display: block;
+  padding: 6px 18px;
+//  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #EEEEEE;
+  background-image: none;
+  border:none;
+  margin-right:-12px;
+}
+label
+{
+  font-size:4vh;
+  color:black;
+
+}
+footer
+{
+  padding-top:1vh;
+  background: #171717;
+  width:100%;
+  min-height:4vh;
+  background-position: center;
+  position:relative;
+  display: inline-block;
+  margin-bottom:-2px;
+}
+span.foot
+{
+  line-height: 20px;
+  color:#666
+}
