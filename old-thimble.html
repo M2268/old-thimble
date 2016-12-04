@@ -1,0 +1,153 @@
+<!doctype html>
+
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>old THIMBLE | odzież reklamowa, metki, nadruki(sitodruk), projekty graficzne</title>
+  <meta name="author" content="Michał Nogas">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="js/functions.js"></script>
+</head>
+
+<body>
+  <div>
+
+  </div>
+  <header>
+    <div class="logo"><img src='logo.png'>
+<p class="text">Nasza firma to wynik pasji i determinacji dwóch młodych ludzi. Możliwość obserwacji jak nasza praca przekuwa projekt graficzny w rzeczywisty produkt dumnie noszony przez klientów daje nam ogromna radość i motywacje. Do każdego zamówienia podchodzimy indywidualnie, dbając o perfekcyjny efekt końcowy.Lubimy nietypowe pomysły, ale nie boimy się żadnego zlecenia.</p>
+
+<div>
+<a href="#top" id="bottom" class="scroll"><p class="scroll">>></p></a>
+</div>
+</div>
+  </header>
+
+<section class="first">
+
+  <center>
+
+  <div class="content">
+<div style="padding-top:3vh;"><a href="#middle" id="top"></a></div>
+<div class="h2"><h2 >OFERTA</h2>
+
+<hr></div>
+
+<div class="oferta">
+
+<div class=" item ">
+<div class="img-oferta"><center><img src="maszyna.svg"></center>
+</div><div><center><span>SZYCIE ODZIEŻY</span></center></div>
+<hr>
+
+<ul>
+<li><span class="list">bluzy</span></li>
+<li><span class="list">t-shirty</span></li>
+<li><span class="list">spodnie</span></li>
+<li><span class="list">kurtki</span></li>
+<li><span class="list">czapki</span></li>
+<li><span class="list">odzież promocyjna</span></li>
+</ul>
+</div>
+<div class=" item ">
+<div class="img-oferta"><center><img src="sito.svg"></center>
+</div><div><center><span>NADRUKI</span></center></div>
+<hr>
+<ul>
+<li><span class="list">sitodruk</span></li>
+<li><span class="list">transfer / termodruk</span></li>
+<li><span class="list">flex</span></li>
+<li><span class="list">flock</span></li>
+<li><span class="list">DTG – druk cyfrowy</span></li>
+</ul>
+</div>
+
+<div class=" item ">
+<div class="img-oferta"><center><img src="metki.svg"></center></div>
+<div><center><span>METKI</span></center></div>
+<hr>
+<ul>
+<li><span class="list">żakardowe</span></li>
+<li><span class="list">wszywane</span></li>
+<li><span class="list">hot-stamping</span></li>
+<li><span class="list">haft</span></li>
+</ul>
+</div>
+
+<div class=" item ">
+<div class="img-oferta"><center><img src="projekty.svg"></center></div>
+<div><center><span>PROJEKTY GRAFICZNE</span></center></div>
+<hr>
+<ul>
+<li><span class="list">wlepki</span></li>
+<li><span class="list">projekty nadruków</span></li>
+<li><span class="list">projekty logo/logotypów</span></li>
+<li><span class="list">projekty wizytówek/ulotek</span></li>
+<li><span class="list">wycinanie z folii barwionej w masie</span></li>
+</ul>
+</div>
+
+</div>
+</div>
+</content>
+
+</center>
+</section>
+
+<section class="second">
+<div class="trusted">
+<div class="tr"><img src="hampersbay.png"></div>
+<div class="tr"><img src="mdwhite.png"></div>
+</div>
+</section>
+<section class="third">
+
+<div class="form" >
+  <div class="kontakt"><h3 >Kontakt</h3>
+  <hr></div>
+<form  action="mailto:[email]" method="GET">
+    <label>Napisz do nas</label>
+  <input class="form-input input" name="name" type="text" placeholder="Nazwa">
+  <input class="form-input input" name="name" type="text" placeholder="E-mail">
+  <textarea rows="12" class="form-input" name="body" placeholder="Wiadomość"></textarea>
+  <input class="button" type="submit" value="Prześlij" />
+</form>
+</div>
+<div class="map">
+  <iframe width="100%" height="100%" frameborder="0" style="border:0"
+src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ3fQJjKfNHkcRcPQ2n8dncOk&key=AIzaSyBSbjneBrn7zQs7vlCGab2MnmvMAF34oAA" allowfullscreen></iframe>
+</div>
+
+</section>
+
+<footer>
+<span class="foot">
+<center>
+old THIMBLE - szfalnia & druk na odzieży | Saska Kępa | Warszawa
+</center>
+</span>
+</footer>
+<script>
+$(document).ready(function() {
+
+	$('a[href^="#"]').on('click', function(event) {
+
+		var target = $( $(this).attr('href') );
+
+		if( target.length ) {
+			event.preventDefault();
+			$('html, body').animate({
+				scrollTop: target.offset().top
+			}, 1000);
+		}
+	});
+
+});</script>
+</body>
+</html>
