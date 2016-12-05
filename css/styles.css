@@ -6,12 +6,11 @@ body, h1, h2, h3, h4, h5, a
 
 h2
 {
-  font-weight: bold;
   font-style: normal;
   text-transform: none;
   text-decoration: none;
   font-family: 'Lato', sans-serif;
-  font-weight:400;
+  font-weight:300;
   color: #fff;
   line-height: 10vh;
   font-size:6vh;
@@ -61,7 +60,7 @@ img
 
 span
 {
-  font-weight: bold;
+  font-weight: 300;
   font-style: normal;
   text-transform: none;
   text-decoration: none;
@@ -107,11 +106,7 @@ section.first
   position:relative;
 
 }
-.content
-{
 
-  //max-width:1200px;
-}
 h2
 {
   text-align:left;
@@ -122,7 +117,7 @@ h2
   text-align:left;
   display: flex;
   justify-content: space-around;
-  padding-top:20vh;
+  padding-top:15vh;
   flex-wrap: wrap;
 
 }
@@ -198,7 +193,7 @@ section.third
   min-height:100vh;
   background-position: center;
   position:relative;
-  margin-bottom:5vh;
+
 }
 
 
@@ -259,7 +254,7 @@ padding: 0;
   width:40%;
   height:100%;
   min-width: 300px;
-  margin:0 5% 5% 5%;
+  margin:0 5%;
 
 }
 .kontakt
