@@ -118,6 +118,7 @@ h2
   display: flex;
   justify-content: space-around;
   padding-top:15vh;
+  padding-bottom: 6vh;
   flex-wrap: wrap;
 
 }
