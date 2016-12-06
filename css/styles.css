@@ -117,8 +117,8 @@ h2
   text-align:left;
   display: flex;
   justify-content: space-around;
-  padding-top:15vh;
-  padding-bottom: 6vh;
+  padding-top: 12vh;
+  padding-bottom: 3vh;
   flex-wrap: wrap;
 
 }
