@@ -201,6 +201,15 @@ section.third
 
 @media only screen and (max-width:600px)
 {
+  .list
+  {
+    font-size:2.5vh;
+  }
+  .logo-in
+  {
+    padding:30px !important;
+    margin:0 !important;
+  }
   .logo
   {
     width:100% !important;
