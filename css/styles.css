@@ -6,9 +6,13 @@ body, h1, h2, h3, h4, h5, a
 
 @media only screen and (max-width:600px)
 {
+  p.text
+  {
+    font-size:2.5vh!important;
+  }
   .list
   {
-    font-size:2.5vh;
+    font-size:2.8vh!important;
   }
   .logo-in
   {
@@ -31,19 +35,23 @@ body, h1, h2, h3, h4, h5, a
   }
   .form
 {
-  min-width:0;
+  min-width:0 !important;
 }
 .button
 {
-  padding:0;
+  padding:0!important;
 }
 .map
 {
-  min-width: 0;
+  min-width: 0!important;
 }
 .foot
 {
-  font-size: 3vh;
+  font-size: 3vh!important;
+}
+.tr
+{
+  width:19%;
 }
 }
 @media only screen and (max-width:800px)
